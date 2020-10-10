@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 0;
+    int sum = 0;
+    
+    while (cin >> i) {
+        sum += i;
+    }
+    
+    cout << sum << endl;
+    
+    return 0;
+}
+
+
+o/p
+
+
+Input (stdin)
+Download
+1 2 7
+Your Output (stdout)
+10
+Expected Output
+Download
+10

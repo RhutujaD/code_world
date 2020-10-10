@@ -1,0 +1,12 @@
+Query all columns for a city in CITY with the ID 1661.
+
+Input Format
+
+The CITY table is described as follows: CITY.jpg
+
+SELECT * FROM CITY WHERE ID = 1661;
+
+O/P
+
+Your Output (stdout)
+1661 Sayama JPN Saitama 162472 

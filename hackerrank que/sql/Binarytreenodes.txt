@@ -1,0 +1,27 @@
+
+BINARY TREE NODES
+
+SELECT N, CASE WHEN P IS NULL THEN 'Root' WHEN N NOT IN
+ (SELECT DISTINCT P FROM BST WHERE P IS NOT NULL ) 
+AND N IS NOT NULL THEN 'Leaf' ELSE 'Inner' END AS Type FROM BST ORDER BY N;
+
+
+Output:
+
+
+Your Output (stdout)
+1 Leaf 
+2 Inner 
+3 Leaf 
+4 Inner 
+5 Leaf 
+6 Inner 
+7 Leaf 
+8 Leaf 
+9 Inner 
+10 Leaf 
+11 Inner 
+12 Leaf 
+13 Inner 
+14 Leaf 
+15 Root 
