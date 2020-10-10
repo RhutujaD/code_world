@@ -1,0 +1,52 @@
+ASS4:
+
+Create interface "Course" , have an abstract method "start()". from this class inherit "Dac" , "PgDbda" and "MSCIT".
+Now Define one more class 
+public class CourseDemo
+inside "main" function create array of "Course" with 3 elements. Store the objects of Dac,PgDbda and 
+MSCIT inside this array. Now traverse the array and invoke "start()" method polymorphically.
+
+
+ASS3:
+
+Create abstract class "Account" , have an abstract method "calcInt()". from this class inherit "Saving" , "Current" and "RD".
+Now Define one more class 
+public class AcDemo
+In this class have a method "perform" which will take Account reference as parameter. 
+inside "perform()" see to it that if only “Saving” object is passed ,its "calcInt()" method should be invoked.
+Make sure in order to invoke “perform” method u need not create an instance of “AcDemo” class.
+
+
+ASS2:
+
+
+client - developer Example
+
+on developer side
+	define a class "Student" inside "studpack" with
+		private String name,address;
+		private int age
+			parameterized and default constructor
+		setters and getters
+
+create jar file and documentation for the above code
+
+on client side
+	access Student class (instantiate it and invoke its methods).
+
+
+ASS1:
+
+
+client - developer Example
+
+on developer side
+	define a class "Employee" inside "emppack" with
+		private String name,desig;
+		private double salary
+			parameterized and default constructor
+		setters and getters
+
+create jar file and documentation for the above code
+
+
