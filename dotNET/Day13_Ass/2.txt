@@ -1,0 +1,63 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.IO;
+namespace ConsoleApplication7
+{
+    class Student
+
+    {
+        public int id;
+        public int marks;
+        public string name;
+        public void grace(int marks)
+        {
+            try
+            {
+                if (marks > 5)
+                {
+                    throw new Exception("marks are more");
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("marks are more");
+            }
+        }
+        public override string ToString()
+        {
+            return id + name + marks;
+        }
+    
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Student s = new Student();
+            s.id = 1;
+            s.marks = 80;
+            s.name = "Divyesh";
+            s.grace(2);
+
+            FileStream fs = new FileStream("file1.txt", FileMode.Create, FileAccess.Write);
+
+            StreamWriter sw = new StreamWriter(fs);
+            sw.WriteLine(s);
+            sw.Close();
+            fs.Close();
+            FileStream fs1 = new FileStream("file1.txt", FileMode.Open, FileAccess.Read);
+            StreamReader se = new StreamReader(fs1);
+            String str=se.ReadLine();
+            Console.WriteLine(str);
+            fs1.Close();
+            
+        }
+        
+            
+    }
+
+}
+
+

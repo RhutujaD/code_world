@@ -1,0 +1,6 @@
+E:\PG-DAC\.NET\dotNET\Day15_Ass\Que1_ass\Que1_ass\bin\Debug\Que1_ass.exe.config
+E:\PG-DAC\.NET\dotNET\Day15_Ass\Que1_ass\Que1_ass\bin\Debug\Que1_ass.exe
+E:\PG-DAC\.NET\dotNET\Day15_Ass\Que1_ass\Que1_ass\bin\Debug\Que1_ass.pdb
+E:\PG-DAC\.NET\dotNET\Day15_Ass\Que1_ass\Que1_ass\obj\Debug\Que1_ass.csprojResolveAssemblyReference.cache
+E:\PG-DAC\.NET\dotNET\Day15_Ass\Que1_ass\Que1_ass\obj\Debug\Que1_ass.exe
+E:\PG-DAC\.NET\dotNET\Day15_Ass\Que1_ass\Que1_ass\obj\Debug\Que1_ass.pdb

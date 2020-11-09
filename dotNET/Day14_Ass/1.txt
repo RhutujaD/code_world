@@ -1,0 +1,41 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
+namespace ConsoleApplication7
+{
+    [Serializable]
+    class employee
+    {
+        public int id;
+        public string name;
+        public int salary;
+    
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            Stream s = new FileStream("File1", FileMode.Create, FileAccess.Write);
+            employee e = new employee();
+            e.id = 1;
+            e.name = "divyesh";
+            e.salary = 50000;
+            bf.Serialize(s, e);
+            Console.WriteLine("written");
+             Stream s1 = new FileStream("File1", FileMode.Open, FileAccess.Read);
+             BinaryFormatter bf1 = new BinaryFormatter();
+           List<Object> str=(List<Object>)bf1.Deserialize(s1);
+
+        }
+        
+            
+    }
+
+}
+
+

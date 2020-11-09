@@ -1,0 +1,85 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
+
+namespace ConsoleApplication7
+{
+  
+    class Student:IComparer
+    {
+        public int rollno;
+        public string name;
+        public int maths;
+        public int eng;
+        public int sci;
+        public int Compare(object x, object y)
+        {
+            Student s1 = x as Student;
+            Student s2 = y as Student;
+            return String.Compare(s1.name, s2.name);
+
+        }
+        public override string ToString()
+        {
+            return rollno + name + maths + eng + sci;
+        }
+    
+    }
+    
+    class Program
+    {
+       
+       
+        static void Main(string[] args)
+        {
+            Student stud1 = new Student();
+            stud1.rollno = 1;
+            stud1.name = "divyesh";
+            stud1.maths = 80;
+            stud1.sci = 75;
+            stud1.eng = 90;
+            Student stud2 = new Student();
+            stud2.rollno = 2;
+            stud2.name = "ajay";
+            stud2.maths = 80;
+            stud2.sci = 75;
+            stud2.eng = 90;
+            Student stud3 = new Student();
+            stud3.rollno = 3;
+            stud3.name = "vijay";
+            stud3.maths = 80;
+            stud3.sci = 75;
+            stud3.eng = 90;
+            Student stud4 = new Student();
+            stud4.rollno = 4;
+            stud4.name = "Jay";
+            stud4.maths = 80;
+            stud4.sci = 75;
+            stud4.eng = 90;
+            Student stud5 = new Student();
+            stud5.rollno = 5;
+            stud5.name = "Sanjay";
+            stud5.maths = 80;
+            stud5.sci = 75;
+            stud5.eng = 90;
+
+            SortedList<string ,Student> slist = new SortedList<string,Student>();
+            slist.Add(stud1.name, stud1);
+            slist.Add(stud2.name, stud2);
+            slist.Add(stud3.name, stud3);
+            slist.Add(stud4.name, stud4);
+            slist.Add(stud5.name, stud5);
+       foreach(KeyValuePair<string,Student> details in slist)
+       {
+       Console.WriteLine(details);
+       
+       }
+
+        }
+        }
+}
+
+

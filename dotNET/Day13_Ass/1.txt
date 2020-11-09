@@ -1,0 +1,46 @@
+using System;
+using System.Text;
+using System.Collections;
+namespace ConsoleApplication7
+{
+    class Account
+    {
+        private int balance;
+        public void setBalance(int balance)
+        {
+            this.balance = balance;
+
+        }
+        public int getBalance()
+        {
+            return this.balance;
+        }
+        public void deposit(int amt)
+        {
+            try
+            {
+                if (amt < 0)
+                {
+                    throw new Exception("invalid amt");
+                }
+            }
+            catch (InvalidCastException) { }
+        }
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Account a = new Account();
+            a.setBalance(10000000);
+            a.deposit(-1);
+            
+        }
+        
+            
+    }
+
+}
+
+

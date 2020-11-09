@@ -1,0 +1,62 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
+namespace ConsoleApplication7
+{
+   delegate void math<T>(T x);
+    class employee
+    {
+        public int id;
+        public string name;
+        public int salary;
+    
+    }
+    
+    class Program
+    {
+        static public void sqaure(int x)
+            {
+                Console.WriteLine(x * x);
+            }
+        static public void cube(int x)
+        {
+            Console.WriteLine(x * x*x);
+        }
+        static public void fact(int x)
+        {
+            int no = 1;
+            while (x != 0)
+
+            {
+                no = no * x;
+                x--;
+            }
+            Console.WriteLine(no);
+                
+           
+        }
+        static void Main(string[] args)
+        {
+
+            math<int> m = new math<int>(sqaure);
+            m(4);
+             m = new math<int>(cube);
+            m(4);
+             m = new math<int>(fact);
+            m(4);
+
+            
+           
+           
+
+        }
+        
+            
+    }
+
+}
+
+

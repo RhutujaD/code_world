@@ -1,0 +1,49 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
+
+namespace ConsoleApplication7
+{
+  
+    
+    class Program
+    {
+       
+      
+        static void Main(string[] args)
+        {
+            string[] arr = new string[5];
+            string[] arr1 = new string[5];
+            
+            SortedList<int, int> slist = new SortedList<int, int>();
+            for (int i = 0; i < 5; i++)
+            {
+                arr[i] = Console.ReadLine();
+               if(arr[i].StartsWith("v"))
+               {
+               arr1[i]=arr[i];
+               }
+                
+           }
+            foreach(string show in arr1)
+            {
+            if(show!=null)
+            {
+            Console.WriteLine(show);
+            }
+
+
+
+            }
+           
+           
+            
+
+        }
+        }
+}
+
+

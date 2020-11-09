@@ -1,0 +1,108 @@
+using System;
+using System.Text;
+using System.Collections;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ConsoleApplication7
+{
+    class Employee
+    {
+    public int id;
+        public string name;
+        public string address;
+        public int salary;
+        public Employee(int id,string name,string address,int salary)
+        {
+        this.id=id;
+            this.name=name;
+            this.address=address;
+            this.salary=salary;
+       }
+        public override string ToString()
+        {
+
+            return id + name + address + salary; 
+        
+        
+        }
+   }
+  
+    
+    class Program
+    {
+       
+      
+        static void Main(string[] args)
+        {
+            Employee[] e = new Employee[3];
+             e[0] = new Employee(1, "Divyesh", "VileParle", 60000);
+            e[1] = new Employee(2, "Nishant", "Andheri", 50000);
+             e[2] = new Employee(3, "Alisha", "Kandivli", 40000);
+             var a = from i in e select i;
+             foreach (var disp in a)
+             {
+                 Console.WriteLine(disp);
+             }
+
+             var b = from i in e where i.address.Contains("Andheri") select i;
+             foreach (var disp in b)
+             {
+                 Console.WriteLine(disp);
+             }
+
+             var d = from i in e where i.name.StartsWith("v") select i;
+             foreach (var disp in d)
+             {
+                 Console.WriteLine(disp);
+             }
+
+            int  ee = (from i in e  select i).Count();
+            
+                 Console.WriteLine(ee);
+
+             var f = from i in e where i.salary>50000 select i;
+                 foreach (var disp in f)
+                 {
+                     Console.WriteLine(disp);
+                 }
+               var g = (from i in e select i.salary).Max();
+               
+              
+                   Console.WriteLine(g);
+                   var g1 = (from i in e select i.salary).Min();
+
+
+                   Console.WriteLine(g1);
+                   var g2 = (from i in e select i.salary).Average();
+
+
+                   Console.WriteLine(g2);
+                   var h = from i in e  orderby i.name select i;
+                   foreach (var disp in h)
+                   {
+                       Console.WriteLine(disp);
+                   }
+                   var ii = from i in e  orderby i.name descending select i;
+                   foreach (var disp in ii)
+                   {
+                       Console.WriteLine(disp);
+                   }
+                   var j = from i in e where i.salary<20000 select i;
+                   foreach (var disp in j)
+                   {
+                       Console.WriteLine(disp);
+                   }
+                    
+
+            }
+           
+           
+            
+
+        }
+        }
+
+

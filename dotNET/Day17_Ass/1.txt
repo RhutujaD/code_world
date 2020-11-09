@@ -1,0 +1,45 @@
+using System;
+using System.Data.SqlClient;
+
+namespace ADO01_ConsoleApplication
+{
+    public class Emp
+    {
+        public void Employee()
+        {
+
+            string connectionString = @"Data Source=Divyesh\sqlexpress;Initial Catalog=db;Integrated Security=True";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                // Pass the connection to the command object, so the command object knows on which
+                // connection to execute the command
+                SqlCommand cmd = new SqlCommand("Select * from Employee", con);
+                // Open the connection. Otherwise you get a runtime error. An open connection is
+                // required to execute the command            
+                con.Open();
+                Console.WriteLine("connected");
+                SqlDataReader rdr = cmd.ExecuteReader(); //returns object of sqldatareder
+                if (rdr.HasRows)
+                {
+                    while (rdr.Read())
+                    {
+
+                        Console.WriteLine("{0} {1} {2} {3}", rdr["Id"], rdr["Id"], rdr["Name"], rdr["Salary"]);
+                    }
+                }
+            }
+            
+        }
+    }
+    class program
+    {
+        static void Main()
+        {
+           Emp e1 = new Emp();
+            e1.Employee();
+
+        }
+
+    }
+}
