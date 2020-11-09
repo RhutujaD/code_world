@@ -1,0 +1,5 @@
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que5_ass\Que5_ass\bin\Debug\Que5_ass.exe.config
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que5_ass\Que5_ass\bin\Debug\Que5_ass.exe
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que5_ass\Que5_ass\bin\Debug\Que5_ass.pdb
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que5_ass\Que5_ass\obj\Debug\Que5_ass.exe
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que5_ass\Que5_ass\obj\Debug\Que5_ass.pdb
