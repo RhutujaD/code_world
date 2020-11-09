@@ -1,0 +1,5 @@
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que1_1_ass\Que1_1_ass\bin\Debug\Que1_1_ass.exe.config
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que1_1_ass\Que1_1_ass\bin\Debug\Que1_1_ass.exe
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que1_1_ass\Que1_1_ass\bin\Debug\Que1_1_ass.pdb
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que1_1_ass\Que1_1_ass\obj\Debug\Que1_1_ass.exe
+E:\PG-DAC\.NET\dotNET\Day12_Ass\Que1_1_ass\Que1_1_ass\obj\Debug\Que1_1_ass.pdb
