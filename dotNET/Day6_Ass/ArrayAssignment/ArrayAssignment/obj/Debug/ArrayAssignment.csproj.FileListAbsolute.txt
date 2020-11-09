@@ -1,0 +1,5 @@
+C:\Users\acer\Desktop\c+demo\Dot net\ArrayAssignment\ArrayAssignment\bin\Debug\ArrayAssignment.exe.config
+C:\Users\acer\Desktop\c+demo\Dot net\ArrayAssignment\ArrayAssignment\bin\Debug\ArrayAssignment.exe
+C:\Users\acer\Desktop\c+demo\Dot net\ArrayAssignment\ArrayAssignment\bin\Debug\ArrayAssignment.pdb
+C:\Users\acer\Desktop\c+demo\Dot net\ArrayAssignment\ArrayAssignment\obj\Debug\ArrayAssignment.exe
+C:\Users\acer\Desktop\c+demo\Dot net\ArrayAssignment\ArrayAssignment\obj\Debug\ArrayAssignment.pdb

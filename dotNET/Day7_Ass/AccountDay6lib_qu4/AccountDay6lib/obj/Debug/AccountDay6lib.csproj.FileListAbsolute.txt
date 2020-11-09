@@ -1,0 +1,4 @@
+C:\Users\acer\Desktop\c+demo\Dot net\AccountDay6lib\AccountDay6lib\bin\Debug\AccountDay6lib.dll
+C:\Users\acer\Desktop\c+demo\Dot net\AccountDay6lib\AccountDay6lib\bin\Debug\AccountDay6lib.pdb
+C:\Users\acer\Desktop\c+demo\Dot net\AccountDay6lib\AccountDay6lib\obj\Debug\AccountDay6lib.dll
+C:\Users\acer\Desktop\c+demo\Dot net\AccountDay6lib\AccountDay6lib\obj\Debug\AccountDay6lib.pdb

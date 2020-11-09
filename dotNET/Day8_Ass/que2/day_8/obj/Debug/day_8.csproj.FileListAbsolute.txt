@@ -1,0 +1,6 @@
+E:\PG-DAC\.NET\dotNET\day_8\day_8\bin\Debug\day_8.exe.config
+E:\PG-DAC\.NET\dotNET\day_8\day_8\bin\Debug\day_8.exe
+E:\PG-DAC\.NET\dotNET\day_8\day_8\bin\Debug\day_8.pdb
+E:\PG-DAC\.NET\dotNET\day_8\day_8\obj\Debug\day_8.csprojResolveAssemblyReference.cache
+E:\PG-DAC\.NET\dotNET\day_8\day_8\obj\Debug\day_8.exe
+E:\PG-DAC\.NET\dotNET\day_8\day_8\obj\Debug\day_8.pdb
