@@ -1,0 +1,5 @@
+E:\PG-DAC\.NET\dotNET\Day10_Ass\Que3_Ass\Que3_Ass\bin\Debug\Que3_Ass.exe.config
+E:\PG-DAC\.NET\dotNET\Day10_Ass\Que3_Ass\Que3_Ass\bin\Debug\Que3_Ass.exe
+E:\PG-DAC\.NET\dotNET\Day10_Ass\Que3_Ass\Que3_Ass\bin\Debug\Que3_Ass.pdb
+E:\PG-DAC\.NET\dotNET\Day10_Ass\Que3_Ass\Que3_Ass\obj\Debug\Que3_Ass.exe
+E:\PG-DAC\.NET\dotNET\Day10_Ass\Que3_Ass\Que3_Ass\obj\Debug\Que3_Ass.pdb
