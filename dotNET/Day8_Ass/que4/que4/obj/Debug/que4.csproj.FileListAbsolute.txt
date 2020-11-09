@@ -1,0 +1,5 @@
+E:\PG-DAC\.NET\dotNET\Day8_Ass\que4\que4\bin\Debug\que4.exe.config
+E:\PG-DAC\.NET\dotNET\Day8_Ass\que4\que4\bin\Debug\que4.exe
+E:\PG-DAC\.NET\dotNET\Day8_Ass\que4\que4\bin\Debug\que4.pdb
+E:\PG-DAC\.NET\dotNET\Day8_Ass\que4\que4\obj\Debug\que4.exe
+E:\PG-DAC\.NET\dotNET\Day8_Ass\que4\que4\obj\Debug\que4.pdb
