@@ -1,0 +1,2 @@
+E:\PG-DAC\.NET\dotNET\Day9_Ass\Que2\Que2\bin\Debug\Que2.exe.config
+E:\PG-DAC\.NET\dotNET\Day9_Ass\Que2\Que2\obj\Debug\Que2.csprojResolveAssemblyReference.cache
