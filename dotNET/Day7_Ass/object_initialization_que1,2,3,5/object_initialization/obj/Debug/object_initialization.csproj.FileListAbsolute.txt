@@ -1,0 +1,6 @@
+E:\PG-DAC\.NET\dotNET\Day2_ass\object_initialization\object_initialization\bin\Debug\object_initialization.exe.config
+E:\PG-DAC\.NET\dotNET\Day2_ass\object_initialization\object_initialization\bin\Debug\object_initialization.exe
+E:\PG-DAC\.NET\dotNET\Day2_ass\object_initialization\object_initialization\bin\Debug\object_initialization.pdb
+E:\PG-DAC\.NET\dotNET\Day2_ass\object_initialization\object_initialization\obj\Debug\object_initialization.csprojResolveAssemblyReference.cache
+E:\PG-DAC\.NET\dotNET\Day2_ass\object_initialization\object_initialization\obj\Debug\object_initialization.exe
+E:\PG-DAC\.NET\dotNET\Day2_ass\object_initialization\object_initialization\obj\Debug\object_initialization.pdb
