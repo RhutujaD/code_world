@@ -1,0 +1,5 @@
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task5\Task5\bin\Debug\Task5.exe.config
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task5\Task5\bin\Debug\Task5.exe
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task5\Task5\bin\Debug\Task5.pdb
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task5\Task5\obj\Debug\Task5.exe
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task5\Task5\obj\Debug\Task5.pdb
