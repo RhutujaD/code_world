@@ -1,0 +1,6 @@
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task6\Task6\bin\Debug\Task6.exe.config
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task6\Task6\bin\Debug\Task6.exe
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task6\Task6\bin\Debug\Task6.pdb
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task6\Task6\obj\Debug\Task6.exe
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task6\Task6\obj\Debug\Task6.pdb
+E:\PG-DAC\.NET\dotNET\Day18_Ass\Task6\Task6\obj\Debug\Task6.csprojResolveAssemblyReference.cache
